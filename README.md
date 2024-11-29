@@ -7,7 +7,7 @@ This is a web application developed using the **MERN stack** (MongoDB, Express, 
 ### Live Demo
 
 You can access the live version of the application here:  
-[**Live Demo**]
+[**Live Demo**]https://frontend-vrv-task-tanjul.vercel.app/
 
 ### Features
 
