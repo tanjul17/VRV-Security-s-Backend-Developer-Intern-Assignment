@@ -1,0 +1,90 @@
+/* General Card Styling */
+.card3 {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s, color 0.3s;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Header Styling */
+.card3 h2 {
+  color: var(--text-primary);
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card3 h3 {
+  color: var(--text-secondary);
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Profile Image */
+.card3 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid var(--text-secondary);
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card3 img:hover {
+  transform: scale(1.1);
+  border-color: blue;
+}
+
+/* Buttons */
+.card3 button {
+  background-color: var(--text-secondary);
+  color: var(--bg-primary);
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card3 button:hover {
+  background-color: blue;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Interactive Hover Effect */
+.card3:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .card3 {
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  .card3 h2 {
+    font-size: 1.5rem;
+  }
+
+  .card3 h3 {
+    font-size: 1rem;
+  }
+
+  .card3 button {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+}

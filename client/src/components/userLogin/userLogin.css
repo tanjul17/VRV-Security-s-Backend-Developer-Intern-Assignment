@@ -1,0 +1,118 @@
+/* Card Styles */
+.card {
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: transform 0.3s ease, background-color 0.3s, color 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Form Container */
+.form-container {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: var(--text-primary);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Input and Select */
+form input,
+form select {
+  width: 90%;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid var(--text-secondary);
+  border-radius: 5px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form select:focus {
+  outline: none;
+  border-color: blue;
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+/* Button */
+form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--text-secondary);
+  color: var(--bg-primary);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+  background-color: blue;
+  color: #fff;
+  transform: scale(1.02);
+}
+
+form button:active {
+  transform: scale(0.98);
+}
+
+/* Link/Span */
+form p span {
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+form p span:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+/* Responsiveness */
+@media (max-width: 500px) {
+  .card {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  form button {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Animation for Form Toggle */
+.form-container {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
