@@ -38,14 +38,26 @@ You can access the live version of the application here:
   - **dotenv**: To manage environment variables for sensitive information, such as database connection strings and JWT secrets.
   - **Mongoose**: A MongoDB object modeling tool that provides a straight-forward way to interact with MongoDB collections.
 
----
+### Key Enhancements:
+- **Dark Mode & Light Mode**: Added a feature for theme switching, improving user experience.
+- **RBAC Integration**: Secured routes and actions based on user roles.
+- **Tech Stack**: Clear listing of technologies used in both the backend and frontend.
 
 ### Setup & Installation
 
 To set up the project locally, follow the steps below:
 
+![Screenshot (23)](https://github.com/user-attachments/assets/4d5feb75-0407-43ad-9686-3f24c186c7ac)
+![Screenshot (22)](https://github.com/user-attachments/assets/0a31de31-afd1-4797-88bb-e106699bdf00)
+![Screenshot (21)](https://github.com/user-attachments/assets/7a128fb6-8218-483f-a8db-8db80d9fa753)
+![Screenshot (20)](https://github.com/user-attachments/assets/08f108c6-a2b5-46a8-a450-d96c3286bade)
+![Screenshot (19)](https://github.com/user-attachments/assets/d05792ee-b8fa-4f46-8220-e35a1ac97483)
+![Screenshot (18)](https://github.com/user-attachments/assets/eb03299f-1955-418a-97dc-4a73c8bbaf59)
+
+
+
 #### 1. **Clone the Repository**
 First, clone the repository to your local machine:
 
 ```bash
-git clone 
+git clone https://github.com/tanjul17/VRV-Security-s-Backend-Developer-Intern-Assignment
